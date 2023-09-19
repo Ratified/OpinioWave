@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'aristotelica_display_trdemiBd';
+    src: url('../fonts/aristotelica_display_demibold_trial-webfont.woff2') format('woff2'),
+         url('../fonts/aristotelica_display_demibold_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aristotelica_display_trialXLt';
+    src: url('../fonts/aristotelica_display_extralight_trial-webfont.woff2') format('woff2'),
+         url('../fonts/aristotelica_display_extralight_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aristotelica_small_capsRg';
+    src: url('../fonts/aristotelicasmallcaps-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aristotelicasmallcaps-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$aristotelica-display-trial: 'aristotelica_display_trialXLt', sans-serif;

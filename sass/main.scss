@@ -1,0 +1,51 @@
+@import 'typography';
+@import 'reset';
+@import 'variables';
+@import './components/header';
+@import './components/footer';
+
+body{
+    font-family: $aristotelica-display-trial;
+}
+
+.card{
+    background-color: $color-white;
+    font-size: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+
+    &:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+}
+
+.h2_feedback{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.feedback_card{
+    padding: .5rem 1rem;
+    border: 3px solid #ccc;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+
+    &__paragraph{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    &__name{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+}
