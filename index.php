@@ -19,21 +19,21 @@
 
 
 <main>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" id="myForm" >
         <div>
           <label for="name">Name</label>
-          <input type="text" name="name">
+          <input type="text" name="name" id="name">
         </div>
         <div>
           <label for="email">Email</label>
-          <input type="email" name="email">
+          <input type="email" name="email" id="email">
         </div>
         <div>
           <label for="feedback">Feedback</label>
-          <textarea name="feedback"></textarea>
+          <textarea name="feedback" id="feedback"></textarea>
         </div>
 
-        <input type="submit" value="Send" name="submit">
+        <input type="submit" value="Send" name="submit" id="submit" >
     </form>
 </main>
 
